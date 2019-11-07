@@ -1,0 +1,136 @@
+{%extends 'base.html'%}
+{% block content %}
+{{ block.super}}
+<!-- Latest compiled and minified Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<style>
+    #image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+            url('https://www.galaxy-hotel.com/_storageWeb_/n/13772846631855/b/692033667068/cretanwines-1024x708-compressor.jpeg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 500px;
+
+    }
+    .carousel-item {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),#61892F ;
+            text-align: center;
+            height: 250px;
+        }
+
+</style>
+<div class="container-fluide">
+    <div class="row" id="image">
+        <!-- <div class="text-center header mt-5">
+                    <form class="w-100 mt-500" action="">
+                      <input class="w-1000 p-3" type="search" placeholder="Search Images by Category" name="image" aria-label="Search">
+                      <button class="btn rounded p-0" type="submit" style="margin-left: -50px; margin-bottom: 15px;"><img src="https://www.freeiconspng.com/uploads/search-icon-png-27.png" alt="" width="30px"
+                          height="30px"></button>
+                    </form>
+                    <div class="suggested"> <br>
+                      <p id="suggest"><strong> Suggested: travel , nature , food , animal </strong>  </p>
+              
+                    </div>
+                  </div> -->
+        <div class="align-self-center mx-auto">
+            <form class="form-inline my-2 my-lg-0" action="">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" name="project"
+                    aria-label="Search">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit"
+                    style="color: #D0D3D4; font-size: 18px">Search</button>
+            </form>
+        </div>
+    </div> <br>
+
+    <h1 style="text-align: center;"> SPORTS GROUND VENUE </h1> <br>
+    <div class="row"> <br>
+
+        <div class="col-md-3"> <img class="img-thumbnail photo img-responsive"
+                src="http://mamaurwagasabo.rw/IMG/arton754.jpg?1563049160" alt="" height="500" width="500"></div>
+        <div class="col-md-3"> <img class="img-thumbnail photo img-responsive"
+                src="https://ktpress.rw/wp-content/uploads/2017/10/cricket-oval-gahanga-1024x720.jpg" alt=""
+                height="500" width="500"></div>
+        <div class="col-md-3"> <img class="img-thumbnail photo img-responsive"
+                src="https://constructionreviewonline.com/wp-content/uploads/2018/06/stadium-1.jpg" alt="" height="500"
+                width="500"></div>
+        <div class="col-md-3"> <img class="img-thumbnail photo img-responsive"
+                src="https://live.staticflickr.com/5499/13705769264_8cdfecd08d_b.jpg" alt="" height="500" width="500">
+        </div>
+    </div> <br>
+    <h3 style="text-align: center;"> About Us</h3>
+    <div class="row">
+        <div class="col-md-6 " style="text-align: center;"> <img
+                src="https://expressmagazine.net/sites/default/files/imagesArticle/setting.png" height="100"
+                width="100">
+            <h3>HOW IT WORKS</h3>
+            <p>Signup and explore sports venue, sports venue <br>
+                and opponent team in your city.</p>
+        </div>
+        <div class="col-md-6" style="text-align: center;"> <img
+                src="https://cdn.pixabay.com/photo/2017/01/31/13/45/checklist-2024181__340.png" alt="" height="100"
+                width="100">
+            <h3>LIST YOUR SPORTS FACILITY</h3>
+            <p> Sign up as facility Manager, promote your sports <br>
+                venue. It’s Easy its free.</p>
+        </div>
+    </div> <br>
+    <h3 style="text-align: center;"> TESTIMONIALS </h3>
+
+        <!--  -->
+        <div class="img-fluid">
+                <div id="demo" class="carousel slide" data-interval="2000" data-ride="carousel">
+        
+                    <ol class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" id="car">
+                        <div class="carousel-item active">
+                            <h2 style="color: white;">Slide 1</h2>
+                            <div class="carousel-caption">
+                                <h3>This is the First Label</h3>
+                                <p>The Content of the First Slide goes in here</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <h2 style="color: white;">Slide 2</h2>
+                            <div class="carousel-caption">
+                                <h3>This is the Second Label</h3>
+                                <p>The Content of the second Slide goes in here</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <h2 style="color: white;">Slide 3</h2>
+                            <div class="carousel-caption">
+                                <h3>This is the Third Label</h3>
+                                <p>The Content of the Third Slide goes in here</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        
+              
+        <!--  -->
+
+
+
+</div>
+<!-- jQuery library -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<!-- Popper -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<!-- Latest compiled and minified Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+{% endblock %}
